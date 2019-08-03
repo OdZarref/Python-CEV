@@ -12,4 +12,5 @@ print(num.isalnum())
 #Verá se está totalmente em maiúsculo
 print('Está totalmente em maiúsculo? ', end='')
 print(num.isupper())
-input('Pressione qualquer tecla para sair.')
+print('-=' * 10)
+input('pressione enter para sair')

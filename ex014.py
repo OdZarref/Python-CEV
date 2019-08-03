@@ -2,5 +2,5 @@
 print('CONVERSOR DE CELSIUS PARA FAHRENHEIT')
 celsius = int(input('CELSIUS:'))
 print('{}ºF'.format(celsius / 5 * 9 + 32))
-print('-=-' * 10)
-input('Pressione qualquer tecla para sair')
+print('-=' * 10)
+input('pressione enter para sair')

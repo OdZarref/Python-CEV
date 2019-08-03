@@ -2,5 +2,5 @@
 print('DIGITE UM PREÇO E VEJA-O COM DESCONTO DE 5%.')
 preco = float(input(': '))
 print('Com desconto de 5% o preço fica: {} R$.'.format(preco / 100 * 95))
-print('-=-' * 10)
-input('pressione qualquer tecla para sair')
+print('-=' * 10)
+input('pressione enter para sair')

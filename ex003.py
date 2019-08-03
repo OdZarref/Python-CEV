@@ -2,4 +2,5 @@
 num1 = int(input('Digite o primeiro valor: '))
 num2 = int(input('Digite o segundo valor: '))
 print(f'A soma entre eles é {num1 + num2}.')
-input('Pressione qualquer tecla para sair.')
+print('-=' * 10)
+input('pressione enter para sair')
