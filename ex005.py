@@ -2,4 +2,4 @@
 num = int(input('Digite um número: '))
 print(f'O seu antecessor é {num - 1} e o sucessor é {num + 1}.')
 print('-=' * 10)
-input('pressione enter para sair')
+input('pressione ENTER para sair')

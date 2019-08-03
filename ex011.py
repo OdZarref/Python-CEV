@@ -4,4 +4,4 @@ largura = float(input('LARGURA: '))
 area = altura * largura
 print(f'Será necessário {area / 2} litros de tinta.')
 print('-=' * 10)
-input('pressione enter para sair')
+input('pressione ENTER para sair')

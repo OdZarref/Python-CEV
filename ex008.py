@@ -2,4 +2,4 @@
 distancia = float(input('Metros: '))
 print(f'A distância {distancia} em centímetros é {distancia * 100}. E em melímetros é {distancia * 1000}')
 print('-=' * 10)
-input('pressione enter para sair')
+input('pressione ENTER para sair')

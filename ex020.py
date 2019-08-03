@@ -8,4 +8,4 @@ list = [student1, student2, student3, student4]
 shuffle(list)
 print(f'A ordem escolhida é: {list}')
 print('-=' * 10)
-input('pressione enter para sair')
+input('pressione ENTER para sair')

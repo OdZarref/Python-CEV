@@ -2,4 +2,4 @@
 nome = str(input('Qual o seu nome? '))
 print(f'Seja bem-vindo, {nome}!')
 print('-=' * 10)
-input('pressione enter para sair')
+input('pressione ENTER para sair')
