@@ -3,6 +3,6 @@ vel = int(input('Velocidade: '))
 if vel > 80:
 	print(f'Você foi multado por excesso de velocidade! O valor da multa é R${(vel - 80) * 7}.')
 else:
-	print('Tudo nos conformes. Tenha um boa viagem!')
+	print('Tudo nos conformes. Tenha uma boa viagem!')
 print('-=' * 10)
 input('pressione ENTER para sair')
