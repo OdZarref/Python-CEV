@@ -14,3 +14,4 @@ else:
 	print('NÃO É POSSÍVEL FORMAR UM TRIÂNGULO.')
 print('-=' * 20)
 input('pressione ENTER para sair')
+
