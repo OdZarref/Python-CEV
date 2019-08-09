@@ -1,5 +1,4 @@
-#Elabore um programa que calcule o valor a ser pago por um produto, considerando o seu preço normal e condição de pagamento:
-#-À vista dinheiro/cheque: 10% de desconto. -À vista no cartão: 5% de desconto. -Em até 2x no cartão: preço normal. -3x ou mais no cartão: 20% de juros.
+#Elabore um programa que calcule o valor a ser pago por um produto, considerando o seu preço normal e condição de pagamento: -À vista dinheiro/cheque: 10% de desconto. -À vista no cartão: 5% de desconto. -Em até 2x no cartão: preço normal. -3x ou mais no cartão: 20% de juros.
 p = float(input('PREÇO: R$'))
 f = int(input("""ESCOLHA A FORMA DE PAGAMENTO:
 [1] - À VISTA DINHEIRO/CHEQUE - 10% DE DESCONTO
