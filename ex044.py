@@ -11,20 +11,19 @@ f = int(input("""ESCOLHA A FORMA DE PAGAMENTO:
 print('-=' * 20)
 if f == 1:
 	print(f"""À VISTA DINHEIRO/CHEQUE - 10% DE DESCONTO
-PREÇO - R${p / 100 * 90:.2f}""")
+PREÇO BASE - R${p:.2f} \nPREÇO A PAGAR - R${p / 100 * 90:.2f}""")
 elif f == 2:
 	print(f"""À VISTA NO CARTÃO - 5% DE DESCONTO
-PREÇO - R${p / 100 * 95:.2f}""")
+PREÇO BASE - R${p:.2f} \nPREÇO A PAGAR - R${p / 100 * 95:.2f}""")
 elif f == 3:
 	print(f"""2X NO CARTÃO - 0% DE DESCONTO
-PREÇO - R${p:.2f}""")
+PREÇO BASE - R${p:.2f} \nPREÇO A PAGAR - R${p:.2f}""")
 elif f == 4:
 	print('3X OU MAIS NO CARTÃO - 20% DE JUROS')
 	print('-=' * 20)
 	q = int(input('QUANTAS PARCELAS? '))
 	print('-=' * 20)
-	print(f'PREÇO BASE - R${p:.2f} \nPREÇO COM DESCONTO: R${p / 100 * 120 / q:.2f}')
+	print(f'PREÇO BASE - R${p:.2f} \nPREÇO COM JUROS - R${p / 100 * 120:.2f} \nVALOR DAS PARCELAS - {p / 100 * 120 / q:.2f}')
 else:
 	print('OPÇÃO INVÁLIDA')
 print('-=' * 20)
-input('pressione ENTER para sair')
