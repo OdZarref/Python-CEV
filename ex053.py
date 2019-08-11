@@ -17,5 +17,5 @@ if contrario == junto:
 else:
 	print('NÃO TEMOS UM PALÍNDROMO.')
 
-print('-=' * 20)
+print('-=' * 28)
 input('pressione ENTER para sair')
