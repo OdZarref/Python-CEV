@@ -8,7 +8,7 @@ jogo_gerado = list()
 
 for contador in range(0, quantos_jogos):
     while True:
-        dado = randint(0, 61)
+        dado = randint(1, 60)
         
         if dado not in jogo_gerado:
             jogo_gerado.append(dado)
