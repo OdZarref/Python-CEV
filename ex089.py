@@ -6,8 +6,8 @@ print(f'{"CADASTRO DE NOTAS":=^30}')
 
 while True:
     aluno.append(str(input('Nome: ')))
-    aluno.append(int(input('Nota 1:')))
-    aluno.append(int(input('Nota 2: ')))
+    aluno.append(float(input('Nota 1:')))
+    aluno.append(float(input('Nota 2: ')))
     aluno.append((aluno[1] + aluno[2]) / 2)
     alunos.append(aluno[:])
 
